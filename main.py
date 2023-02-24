@@ -27,7 +27,7 @@ class Example(QMainWindow):
 
     def draw_flag(self, qp):
         radius = randint(1, 200)
-        qp.setBrush(QColor(randint(1, 255), randint(1, 255), randint(1, 255)))
+        qp.setBrush(QColor(255, 255, 0))
         qp.drawEllipse(randint(radius, 400) - radius, randint(radius, 300) - radius, radius, radius)
 
 
